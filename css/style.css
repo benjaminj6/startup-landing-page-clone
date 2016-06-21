@@ -15,7 +15,7 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-header {
+nav {
 	/* Layout */
 	padding: 0 0.938rem;
 	max-width: 60rem;
@@ -25,16 +25,16 @@ header {
 
 }
 
-header img {
+nav .content img {
 	padding: .968rem 0;
 }
 
-header nav {
+nav .content ul {
 	display: inline;
 	margin: 0;
 }
 
-header nav ul {
+nav .content ul {
 	/* Layout */
 	display: inline;
 	float: right;
@@ -47,7 +47,7 @@ header nav ul {
 
 }
 
-header nav ul li {
+nav .content ul li {
 	display:inline;
 	margin-left: 1.563em;
 }
