@@ -5,10 +5,49 @@
 body {
 	background-color: lightgray;
 }
+/* project CSS */
+html {}
 
-body {}
-header {}
-header i {}
-header nav {}
-header nav ul {}
-header nav ul li {}
+body {
+	/* Layout */
+	margin:0;
+	/* Font */
+	font-family: "Roboto", sans-serif;
+}
+
+header {
+	/* Layout */
+	padding: 0 0.938rem;
+	max-width: 60rem;
+	margin: 0 auto;
+	/* Styling */
+	background-color: #fff;	
+
+}
+
+header img {
+	padding: .968rem 0;
+}
+
+header nav {
+	display: inline;
+	margin: 0;
+}
+
+header nav ul {
+	/* Layout */
+	display: inline;
+	float: right;
+	margin: 1.7em 0;
+	list-style: none;
+	/* Font */
+	color: #838994;
+	font-size: 1.04rem;
+	font-weight: lighter;
+
+}
+
+header nav ul li {
+	display:inline;
+	margin-left: 1.563em;
+}
