@@ -1,3 +1,7 @@
-h1 {
-	color:red;
+/* layout phase */
+* {
+	border: 1px solid red;
+}
+body {
+	background-color: lightgray;
 }
