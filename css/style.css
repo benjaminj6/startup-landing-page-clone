@@ -1,5 +1,5 @@
-/* layout phase */
-* {
+/* layout aids */
+div {
 	border: 1px solid red;
 }
 body {
@@ -16,17 +16,19 @@ body {
 }
 
 nav {
-	/* Layout */
-	padding: 0 0.938rem;
-	max-width: 60rem;
-	margin: 0 auto;
-	/* Styling */
-	background-color: #fff;	
+	background-color: #fff;
+}
 
+nav .content {
+	padding:0 0.938rem;
+	width: 60rem;
+	height:70px;
+	margin: 0 auto;
 }
 
 nav .content img {
 	padding: .968rem 0;
+
 }
 
 nav .content ul {
