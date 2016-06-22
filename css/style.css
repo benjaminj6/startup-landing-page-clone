@@ -1,16 +1,24 @@
-/* layout aids */
-/*div {
-	border: 1px solid red;
-}*/
+/* Layout aids */
 body {
 	background-color: lightgray;
 }
 /* project CSS */
-html {}
+html {
+	box-sizing:border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
 
 body {
 	/* Layout */
 	margin:0;
+}
+
+.content {
+	width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 nav {
@@ -18,10 +26,7 @@ nav {
 }
 
 nav .content {
-	width: 929.984px;
-    padding: 0 15.008px;
 	height:70px;
-	margin: 0 auto;
 }
 
 nav .content img { 
@@ -36,7 +41,7 @@ nav .content ul {
 	-webkit-font-smoothing: antialiased;
 	/* Layout */
 	float: right;
-	margin-top: 25px;
+	margin-top: 27px;
 	list-style: none;
 }
 
