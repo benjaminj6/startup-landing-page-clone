@@ -71,6 +71,7 @@ nav .content img {
 	background-size: cover;
 	height: 735px;
 }
+
 .intro .content {
 	/* font */
 	color: #fff;
@@ -78,21 +79,37 @@ nav .content img {
 	text-align: center;
 	padding-top: 280px;
 }
+
 .intro .content h1 {
 	font-weight: 300;
 	font-size: 3.125rem;
 	margin-top: 0;
 	margin-bottom: 0;
 }
+
 .intro .content h3 {
 	font-weight: 300;
 	font-size: 1.563rem;
 	margin-top: 25px;
 }
+
 .intro .content button {
+	/* styling */
 	color: #fff;
 	font-weight: 300;
 	font-size: 1.125rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	border-style: none;
+	border-radius: 4px;
+	/* layout */
+	padding: 1rem 1.5rem;
+}
+
+.intro .content button:hover {
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+	cursor: pointer;
 }
 
 
