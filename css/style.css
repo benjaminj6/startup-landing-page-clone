@@ -65,14 +65,19 @@ nav .content img {
 .intro {
 	background-image:url(../images/first-background.jpg);
 	background-repeat:no-repeat;
+	background-position:center bottom;
 	background-size: cover;
+	height: 735px;
 }
 .intro .content {
 	/* font */
 	color: #fff;
 	text-align: center;
 }
-.intro .content h1 {}
+.intro .content h1 {
+	padding-top: 280px;
+	margin: 0;
+}
 .intro .content h3 {}
 .intro .content button {}
 
