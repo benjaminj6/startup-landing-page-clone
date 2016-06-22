@@ -72,14 +72,24 @@ nav .content img {
 .intro .content {
 	/* font */
 	color: #fff;
+	/* layout */
 	text-align: center;
+	padding-top: 280px;
+	margin-top: 0;
 }
 .intro .content h1 {
-	padding-top: 280px;
-	margin: 0;
+	font-weight: 300;
+	font-size: 3.125rem;
 }
-.intro .content h3 {}
-.intro .content button {}
+.intro .content h3 {
+	font-weight: 300;
+	font-size: 1.563rem;
+}
+.intro .content button {
+	color: #fff;
+	font-weight: 300;
+	font-size: 1.125rem;
+}
 
 
 
