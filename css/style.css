@@ -15,7 +15,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-.content {
+div.content {
 	width: 60%;
     padding: 0 15px;
     margin: 0 auto;
@@ -29,11 +29,11 @@ nav {
 	border-bottom: 1px solid #DDD;
 }
 
-nav .content {
+nav div.content {
 	height:70px;
 }
 
-nav .content ul {
+nav div.content ul {
 	/* fonts */
 	font-family: 'Roboto', sans-serif;
 	color: #838994;
@@ -46,26 +46,26 @@ nav .content ul {
 	list-style: none;
 }
 
-nav .content ul li {
+nav div.content ul li {
 	display:inline-block;
 	margin-left: 25px;
 }
 
-nav .content ul li:hover {
+nav div.content ul li:hover {
     cursor: pointer;
     color: #333333;
 }
 
-nav .content ul .active {
+nav div.content ul .active {
  	color: #4c5058;
     font-weight: 500;
 }
 
-nav .content img { 
+nav div.content img { 
 	height: 70px;
 }
 
-.intro {
+ section {
 	background-image:url(../images/first-background.jpg);
 	background-repeat:no-repeat;
 	background-position:center bottom;
@@ -74,7 +74,7 @@ nav .content img {
 	overflow: auto;
 }
 
-.intro .content {
+section div.content {
 	/* font */
 	color: #fff;
 	/* layout */
@@ -82,20 +82,20 @@ nav .content img {
 	margin-top: 280px;
 }
 
-.intro .content h1 {
+section div.content h1 {
 	font-weight: 300;
 	font-size: 3.125rem;
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
-.intro .content h3 {
+section div.content h3 {
 	font-weight: 300;
 	font-size: 1.563rem;
 	margin-top: 25px;
 }
 
-.intro .content button {
+section div.content button {
 	/* styling */
 	color: #fff;
 	font-weight: 300;
@@ -108,7 +108,7 @@ nav .content img {
 	padding: 1rem 1.5rem;
 }
 
-.intro .content button:hover {
+section div.content button:hover {
 	background-color: #d9400e;
 	border-color: #cf3d0e;
 	cursor: pointer;
@@ -120,53 +120,53 @@ main {
 	overflow: hidden;
 }
 
-main .content {
+main div.content {
 	text-align: center;
 	margin-top: 7.875rem;
 }
 
-main .content h1 {
+main div.content h1 {
 	font-weight: 300;	
 	font-size: 2.75rem;
 	margin: 1.625rem 0 3.125rem;
 }
 
-main .content ul {
+main div.content ul {
 }
 
-main .content ul li {
+main div.content ul li {
 	list-style: none;
 	width: 33.3333333%;
 	float: left;
 }
 
-main .content ul li img {}
+main div.content ul li img {}
 
-main .content ul li .caption {
+main div.content ul li .caption {
 	font-weight: 400;
 	font-size: 1.563rem;
 }
 
 footer {}
 
-footer .content {
+footer div.content {
 	text-align: center;
 }
-footer .content hr {
+footer div.content hr {
 	margin:1.313rem 0;
 	border-top: 1px solid #eaebec;
 }
-footer .content h5 {
+footer div.content h5 {
 	margin: 0;
 	font-weight: 400;
 	font-size: 1rem;
 }
-footer .content ul {
+footer div.content ul {
 	list-style: none;
 	padding-left:0;
 	margin: 0;
 }
-footer .content ul li {
+footer div.content ul li {
 	border-radius: 1.25rem;
 	height: 2.5rem;
 	width: 2.5rem;
@@ -177,21 +177,21 @@ footer .content ul li {
 	text-align: center;
 
 }
-footer .content ul li i {}
+footer div.content ul li i {}
 
-footer .content ul li .fa-twitter {
+footer div.content ul li .fa-twitter {
 	color: #55acee;
 }
 
-footer .content ul li .fa-facebook {
+footer div.content ul li .fa-facebook {
 	color: #4c66a4;
 }
 
-footer .content ul li .fa-instagram {
+footer div.content ul li .fa-instagram {
 	color: #3f729b;
 }
 
-footer .content p {
+footer div.content p {
 	margin: 0;
 	font-size: .9rem;
 	font-weight: 300;
