@@ -11,8 +11,6 @@ html {}
 body {
 	/* Layout */
 	margin:0;
-	/* Font */
-	font-family: "Roboto", sans-serif;
 }
 
 nav {
@@ -26,29 +24,40 @@ nav .content {
 	margin: 0 auto;
 }
 
-nav .content img {
+nav .content img { 
 	height: 70px;
 }
 
 nav .content ul {
-	display: inline;
-	margin: 0;
-}
-
-nav .content ul {
-	/* Layout */
-	display: inline;
-	float: right;
-	margin: 1.7em 0;
-	list-style: none;
-	/* Font */
+	/* fonts */
+	font-family: 'Roboto', sans-serif;
 	color: #838994;
-	font-size: 1.04rem;
-	font-weight: lighter;
-
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	/* Layout */
+	float: right;
+	margin-top: 25px;
+	list-style: none;
 }
 
 nav .content ul li {
-	display:inline;
-	margin-left: 1.563em;
+	display:inline-block;
+	margin-left: 25px;
 }
+
+nav .content ul li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+nav .content ul .active {
+ 	color: #4c5058;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
