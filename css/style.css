@@ -118,16 +118,19 @@ main {}
 
 main .content {
 	text-align: center;
+	margin-top: 7.875rem;
 }
 
 main .content h1 {
+	font-weight: 300;	
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
 }
 
 main .content ul {
 }
 
 main .content ul li {
-	display: inline-block;
 	list-style: none;
 	width: 33.3333333%;
 	float: left;
@@ -135,7 +138,10 @@ main .content ul li {
 
 main .content ul li img {}
 
-main .content ul li .caption {}
+main .content ul li .caption {
+	font-weight: 400;
+	font-size: 1.563rem;
+}
 
 
 
