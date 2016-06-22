@@ -1,7 +1,4 @@
-/* Layout aids */
-body {
-	background-color: lightgray;
-}
+
 /* project CSS */
 html {
 	box-sizing:border-box;
@@ -19,7 +16,7 @@ body {
 }
 
 .content {
-	width: 970px;
+	width: 60%;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -28,6 +25,7 @@ nav {
 	background-color: #fff;
 	position: fixed;
 	width: 100%;
+	z-index: 9999;
 }
 
 nav .content {
@@ -114,7 +112,11 @@ nav .content img {
 	cursor: pointer;
 }
 
-main {}
+main {
+	padding-bottom: 5rem;
+	background-color: #fff;
+	overflow: hidden;
+}
 
 main .content {
 	text-align: center;
