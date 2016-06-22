@@ -14,6 +14,7 @@ body {
 	/* Layout */
 	margin:0;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -115,15 +116,22 @@ nav .content img {
 
 main {}
 
-main .content {}
+main .content {
+	text-align: center;
+}
 
-main .content h1 {}
+main .content h1 {
+}
 
-main .content  {}
+main .content ul {
+}
 
-main .content ul {}
-
-main .content ul li {}
+main .content ul li {
+	display: inline-block;
+	list-style: none;
+	width: 33.3333333%;
+	float: left;
+}
 
 main .content ul li img {}
 
