@@ -13,6 +13,8 @@ html {
 body {
 	/* Layout */
 	margin:0;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 .content {
@@ -66,7 +68,9 @@ nav .content img {
 	background-size: cover;
 }
 .intro .content {
+	/* font */
 	color: #fff;
+	text-align: center;
 }
 .intro .content h1 {}
 .intro .content h3 {}
