@@ -60,6 +60,19 @@ nav .content img {
 	height: 70px;
 }
 
+.intro {
+	background-image:url(../images/first-background.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.intro .content {
+	color: #fff;
+}
+.intro .content h1 {}
+.intro .content h3 {}
+.intro .content button {}
+
+
 
 
 
