@@ -26,6 +26,7 @@ nav {
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
+	border-bottom: 1px solid #DDD;
 }
 
 nav .content {
@@ -144,6 +145,46 @@ main .content ul li .caption {
 	font-weight: 400;
 	font-size: 1.563rem;
 }
+
+footer {}
+footer .content {
+	text-align: center;
+}
+footer .content hr {
+	margin:1.313rem 0;
+}
+footer .content h5 {}
+footer .content ul {
+	list-style: none;
+	padding-left:0;
+}
+footer .content ul li {
+	border-radius: 1.25rem;
+	height: 2.5rem;
+	width: 2.5rem;
+	display:inline-block;
+	border: 1px solid #eaebec;
+	margin: 1.25rem 5px;
+	padding: 0.625rem 0;
+	text-align: center;
+
+}
+footer .content ul li i {}
+
+footer .content ul li .fa-twitter {
+	color: #55acee;
+}
+
+footer .content ul li .fa-facebook {
+	color: #4c66a4;
+}
+
+footer .content ul li .fa-instagram {
+	color: #3f729b;
+}
+
+
+footer .content p {}
 
 
 
