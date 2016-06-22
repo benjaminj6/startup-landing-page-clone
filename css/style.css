@@ -33,6 +33,11 @@ nav div.content {
 	height:70px;
 }
 
+nav div.content img { 
+	height: 70px;
+	width: 26px;
+}
+
 nav div.content ul {
 	/* fonts */
 	font-family: 'Roboto', sans-serif;
@@ -61,11 +66,7 @@ nav div.content ul .active {
     font-weight: 500;
 }
 
-nav div.content img { 
-	height: 70px;
-}
-
- section {
+section {
 	background-image:url(../images/first-background.jpg);
 	background-repeat:no-repeat;
 	background-position:center bottom;
@@ -140,9 +141,12 @@ main div.content ul li {
 	float: left;
 }
 
-main div.content ul li img {}
+main div.content ul li img {
+	width: 127px;
+	height: 127px;
+}
 
-main div.content ul li .caption {
+main div.content ul li h3 {
 	font-weight: 400;
 	font-size: 1.563rem;
 }
@@ -179,15 +183,15 @@ footer div.content ul li {
 }
 footer div.content ul li i {}
 
-footer div.content ul li .fa-twitter {
+footer div.content ul li i.fa-twitter {
 	color: #55acee;
 }
 
-footer div.content ul li .fa-facebook {
+footer div.content ul li i.fa-facebook {
 	color: #4c66a4;
 }
 
-footer div.content ul li .fa-instagram {
+footer div.content ul li i.fa-instagram {
 	color: #3f729b;
 }
 
