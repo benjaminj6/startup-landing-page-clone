@@ -29,10 +29,6 @@ nav .content {
 	height:70px;
 }
 
-nav .content img { 
-	height: 70px;
-}
-
 nav .content ul {
 	/* fonts */
 	font-family: 'Roboto', sans-serif;
@@ -41,7 +37,7 @@ nav .content ul {
 	-webkit-font-smoothing: antialiased;
 	/* Layout */
 	float: right;
-	margin-top: 27px;
+	margin-top: 25px;
 	list-style: none;
 }
 
@@ -59,6 +55,11 @@ nav .content ul .active {
  	color: #4c5058;
     font-weight: 500;
 }
+
+nav .content img { 
+	height: 70px;
+}
+
 
 
 
