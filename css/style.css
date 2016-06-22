@@ -69,7 +69,8 @@ nav .content img {
 	background-repeat:no-repeat;
 	background-position:center bottom;
 	background-size: cover;
-	height: 735px;
+	height: 45.938rem;
+	overflow: auto;
 }
 
 .intro .content {
@@ -77,7 +78,7 @@ nav .content img {
 	color: #fff;
 	/* layout */
 	text-align: center;
-	padding-top: 280px;
+	margin-top: 280px;
 }
 
 .intro .content h1 {
