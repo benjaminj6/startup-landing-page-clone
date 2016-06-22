@@ -1,7 +1,7 @@
 /* layout aids */
-div {
+/*div {
 	border: 1px solid red;
-}
+}*/
 body {
 	background-color: lightgray;
 }
@@ -20,15 +20,14 @@ nav {
 }
 
 nav .content {
-	padding:0 0.938rem;
-	width: 60rem;
+	width: 929.984px;
+    padding: 0 15.008px;
 	height:70px;
 	margin: 0 auto;
 }
 
 nav .content img {
-	padding: .968rem 0;
-
+	height: 70px;
 }
 
 nav .content ul {
