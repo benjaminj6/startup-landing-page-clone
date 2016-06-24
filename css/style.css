@@ -1,5 +1,5 @@
 
-/* project CSS */
+/* GENERAL STYLING */
 html {
 	box-sizing:border-box;
 }
@@ -15,12 +15,15 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+/* CONTENT CLASS FOR SIDE PADDING */
+
 div.content {
-	width: 60%;
+	width: 46rem;
     padding: 0 15px;
     margin: 0 auto;
 }
 
+/* NAV */
 nav {
 	background-color: #fff;
 	position: fixed;
@@ -66,6 +69,8 @@ nav div.content ul .active {
     font-weight: 500;
 }
 
+/* SECTION */ 
+
 section {
 	background-image:url(../images/first-background.jpg);
 	background-repeat:no-repeat;
@@ -86,14 +91,14 @@ section div.content {
 section div.content h1 {
 	font-weight: 300;
 	font-size: 3.125rem;
-	margin-top: 0;
+	margin-top: -.25rem;
 	margin-bottom: 0;
 }
 
 section div.content h3 {
 	font-weight: 300;
 	font-size: 1.563rem;
-	margin-top: 25px;
+	margin-top: 0.875rem;
 }
 
 section div.content button {
@@ -106,7 +111,7 @@ section div.content button {
 	border-style: none;
 	border-radius: 4px;
 	/* layout */
-	padding: 1rem 1.5rem;
+	padding: 1rem 2.063rem;
 }
 
 section div.content button:hover {
@@ -114,6 +119,8 @@ section div.content button:hover {
 	border-color: #cf3d0e;
 	cursor: pointer;
 }
+
+/* MAIN */
 
 main {
 	padding-bottom: 5rem;
@@ -133,6 +140,7 @@ main div.content h1 {
 }
 
 main div.content ul {
+	padding-left: 0;
 }
 
 main div.content ul li {
@@ -150,6 +158,8 @@ main div.content ul li h3 {
 	font-weight: 400;
 	font-size: 1.563rem;
 }
+
+/* FOOTER */
 
 footer {}
 
@@ -171,7 +181,7 @@ footer div.content ul {
 	margin: 0;
 }
 footer div.content ul li {
-	border-radius: 1.25rem;
+	border-radius: 50%;
 	height: 2.5rem;
 	width: 2.5rem;
 	display:inline-block;
@@ -201,6 +211,106 @@ footer div.content p {
 	font-weight: 300;
 	color: #838994;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 1200px) {
+	
+	div.content {
+		width: 60%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	div.content {
+		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 626px) {
+	div.content {
+		width: 98%;
+	}
+}
+
+@media only screen and (max-width: 625px) {
+	div.content {
+		width: 98%;
+	}
+	
+	nav {
+		position: absolute;
+		z-index: 0;
+	}
+	nav img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	nav div.content ul {
+		display: block;
+		width: 100%;
+		margin-top: 16.640px;
+		padding-left: 0;
+		text-align: center;
+	}
+
+	nav div.content ul li {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	section {
+		background-size: inherit;
+		background-position: -879px bottom;
+		height: auto;
+	}
+	
+	section div.content {
+		margin-top: 380px;
+		margin-bottom: 220px
+	}
+
+	section div.content h1 {
+		font-size: 2.5rem;
+		font-weight: 400;
+		text-shadow: 1px #000
+	}
+
+	section div.content h3 {
+		text-shadow: 1px #000;
+	}
+
+	main {
+		padding-bottom: 2em;
+	}
+
+	main div.content {
+		margin-top: 4.875rem;
+	}
+	main div.content h1 {
+		font-size: 1.75rem;
+	}
+	main div.content ul li {
+		width: 100%;
+	}
+	main div.content ul li img {}
+	main div.content ul li h3 {
+		font-size: 1.4rem;
+	}
+
+	footer div.content ul li {
+		height: 3.5rem;
+		width: 3.5rem;
+	}
+	footer div.content ul li .fa {
+		font-size: 1.75em;
+	}
+
+}
+
+
+
 
 
 
